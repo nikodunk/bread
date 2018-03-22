@@ -34,8 +34,8 @@ export default App;
 const Navigation = () => (
       <nav>
         <ul>
-          <li><NavLink exact activeClassName="current" to='/advertisement' >Advertisement</NavLink></li>
-          <li><NavLink exact activeClassName="current" to='/' >What's Hot</NavLink></li>
+          <li><NavLink exact activeClassName="current" to='/' >Advertisement</NavLink></li>
+          <li><NavLink exact activeClassName="current" to='/whatshot' >What's Hot</NavLink></li>
           <li><NavLink exact activeClassName="current" to='/about' >About</NavLink></li>
           <li><NavLink exact activeClassName="current" to='/music' >Music</NavLink></li>
         </ul>
@@ -47,11 +47,11 @@ const Navigation = () => (
 
 const Main = () => (
       <Switch>
-        <Route exact path='/' component={Home}></Route>
+        <Route exact path='/' component={Advertisement}></Route>
         <Route exact path='/about' component={About}></Route>
-        <Route exact path='/advertisement' component={Advertisement}></Route>
+        <Route exact path='/whatshot component={Home}></Route>
         <Route exact path='/music' component={Music}></Route>
-        <Route component={Home}></Route>
+        <Route component={Advertisement}></Route>
       </Switch>
     );
 
