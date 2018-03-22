@@ -1,0 +1,168 @@
+.flexBox{
+  display: flex; 
+  flex-wrap: wrap; 
+  max-width: 800px
+}
+
+.flexItem{
+  text-align: left; 
+  max-width: 300px;
+}
+
+.detailBox{
+  text-align: left; 
+  
+  max-width: 300px; 
+  margin-top: 40px
+}
+
+
+body {
+    background-color: #EBEBEB;
+    padding-top: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #6b6b6b;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+  }
+
+  input{
+    font-size: 1rem;
+    padding-top: 0;
+    margin-bottom: 30px;
+    margin-left: 10px;
+  }
+  select{
+    margin-left: 20px;
+    font-size: 1rem;
+
+
+  }
+  hr { 
+    height: 1px; 
+    padding: 0; 
+    margin: 1rem 0; 
+    background-color: darkgrey; 
+    border: 0; 
+    margin-bottom: 50px;
+  }
+
+  .btn {
+      background-image: url("flamingos.gif");
+      background-size: 300px 300px;
+      color:black;
+      /*border: 3px solid black ;*/
+
+      padding: 10px;
+      border-radius: 10px;
+      text-decoration: none;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+      max-width: 300px;
+      margin: 0 auto;
+      /*border: 0;
+      color: white;
+      background-color: #3093FB;*/
+      font-size: 1rem;
+      padding-left: 80px;
+      padding-right: 80px;
+      font-weight: 900;
+      margin-top: 10px;
+      margin-right: 0px;
+    }
+    .btn:hover{
+        -webkit-transition: all 200ms ease-in;
+        -webkit-transform: scale(1.5);
+        -ms-transition: all 200ms ease-in;
+        -ms-transform: scale(1.5);   
+        -moz-transition: all 200ms ease-in;
+        -moz-transform: scale(1.5);
+        transition: all 200ms ease-in;
+        transform: scale(1.03);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+        transition: box-shadow 0.2s ease-in-out;
+    }
+    div{
+      margin: 0 auto;
+    }
+
+    .marginBottom{
+      margin-bottom: 50px;
+    }
+
+    .img-fluid{
+      max-width: 320px !important;
+      max-height: 320px !important;
+    }
+    hr{
+      max-width: 100px; 
+      margin: 0 auto; 
+      margin-bottom: 30px
+    }
+
+.copy{
+      margin-left: 10px;
+    }
+
+    #myCarousel .list-inline {
+    
+    
+    }
+
+    #myCarousel .carousel-indicators {
+        position: static;
+        left: initial;
+        width: initial;
+        margin-left: initial;
+        
+    }
+
+    #myCarousel .carousel-indicators > li {
+        width: initial;
+        height: initial;
+        text-indent: initial;                
+    }
+
+     #myCarousel .carousel-indicators > li img {
+        max-width: 50px !important;
+    }
+
+    #myCarousel .carousel-indicators > li.active img {
+        opacity: 0.7;
+    }
+
+.title, h1, h2{
+  font-family: "VT323", monospace;
+  color: #6b6b6b;
+
+}
+
+.bread { font-size: 3rem; }
+
+
+nav {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 20px;
+      
+    }
+
+    nav ul li {
+      padding: 10px;
+    }
+
+    nav ul li a {
+      color: #6b6b6b;
+      text-decoration: none !important;
+    }
+
+.current {
+      border-bottom: 4px solid #6b6b6b;
+    }
