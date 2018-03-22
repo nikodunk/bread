@@ -34,10 +34,10 @@ export default App;
 const Navigation = () => (
       <nav>
         <ul>
-          <li><NavLink exact activeClassName="current" to={process.env.PUBLIC_URL + '/'}>What's Hot</NavLink></li>
-          <li><NavLink exact activeClassName="current" to={process.env.PUBLIC_URL + '/about'}>About</NavLink></li>
-          <li><NavLink exact activeClassName="current" to={process.env.PUBLIC_URL + '/advertisement'}>Advertisement</NavLink></li>
-          <li><NavLink exact activeClassName="current" to={process.env.PUBLIC_URL + '/music'}>Music</NavLink></li>
+          <li><NavLink exact activeClassName="current" to='/advertisement' >Advertisement</NavLink></li>
+          <li><NavLink exact activeClassName="current" to='/' >What's Hot</NavLink></li>
+          <li><NavLink exact activeClassName="current" to='/about' >About</NavLink></li>
+          <li><NavLink exact activeClassName="current" to='/music' >Music</NavLink></li>
         </ul>
         <hr />
       </nav>
@@ -47,10 +47,10 @@ const Navigation = () => (
 
 const Main = () => (
       <Switch>
-        <Route exact path={process.env.PUBLIC_URL + '/'} component={Home}></Route>
-        <Route exact path={process.env.PUBLIC_URL + '/about'} component={About}></Route>
-        <Route exact path={process.env.PUBLIC_URL + '/advertisement'} component={Advertisement}></Route>
-        <Route exact path={process.env.PUBLIC_URL + '/music'} component={Music}></Route>
+        <Route exact path='/' component={Home}></Route>
+        <Route exact path='/about' component={About}></Route>
+        <Route exact path='/advertisement' component={Advertisement}></Route>
+        <Route exact path='/music' component={Music}></Route>
         <Route component={Home}></Route>
       </Switch>
     );
