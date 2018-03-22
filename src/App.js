@@ -49,7 +49,6 @@ const Main = () => (
         <Route exact path={process.env.PUBLIC_URL + '/about'} component={About}></Route>
         <Route exact path={process.env.PUBLIC_URL + '/advertisement'} component={Advertisement}></Route>
         <Route exact path={process.env.PUBLIC_URL + '/music'} component={Music}></Route>
-        <Route exact path={process.env.PUBLIC_URL + '/thanks'} component={Thanks}></Route>
         <Route component={Home}></Route>
       </Switch>
     );
@@ -272,12 +271,6 @@ const Home = () => (
       </div>
     );
 
-    const Thanks = () => (
-      <div>
-        <p>THANK YOU!</p>
-        <p class="copy"> Your payment has been received. Your custom wear is on the way and you rule the roost.</p>
-        <a href="index.html"><button class="btn">RETURN</button></a>
-      </div>
-    );
+  
 
     
