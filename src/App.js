@@ -9,7 +9,7 @@ class App extends Component {
       <div className='app'>
         
         <div class="marginBottom">
-            <NavLink exact to='/'>
+            <NavLink exact to={process.env.PUBLIC_URL + '/'}>
               <img src="breadlogo.jpg" class="breadLogo" />
             </NavLink>
             <h1 class="bread">THE FAMOUS BREAD BRAND</h1>
@@ -32,10 +32,10 @@ export default App;
 const Navigation = () => (
       <nav>
         <ul class="copy">
-          <li><NavLink exact activeClassName="current" to='/'>What's Hot</NavLink></li>
-          <li><NavLink exact activeClassName="current" to='/about'>About</NavLink></li>
-          <li><NavLink exact activeClassName="current" to='/advertisement'>Advertisement</NavLink></li>
-          <li><NavLink exact activeClassName="current" to='/music'>Music</NavLink></li>
+          <li><NavLink exact activeClassName="current" to={process.env.PUBLIC_URL + '/'}>What's Hot</NavLink></li>
+          <li><NavLink exact activeClassName="current" to={process.env.PUBLIC_URL + '/about'}>About</NavLink></li>
+          <li><NavLink exact activeClassName="current" to={process.env.PUBLIC_URL + '/advertisement'}>Advertisement</NavLink></li>
+          <li><NavLink exact activeClassName="current" to={process.env.PUBLIC_URL + '/music'}>Music</NavLink></li>
         </ul>
         <hr />
       </nav>
@@ -45,10 +45,12 @@ const Navigation = () => (
 
 const Main = () => (
       <Switch>
-        <Route exact path='/' component={Home}></Route>
-        <Route exact path='/about' component={About}></Route>
-        <Route exact path='/advertisement' component={Advertisement}></Route>
-        <Route exact path='/music' component={Music}></Route>
+        <Route exact path={process.env.PUBLIC_URL + '/'} component={Home}></Route>
+        <Route exact path={process.env.PUBLIC_URL + '/about'} component={About}></Route>
+        <Route exact path={process.env.PUBLIC_URL + '/advertisement'} component={Advertisement}></Route>
+        <Route exact path={process.env.PUBLIC_URL + '/music'} component={Music}></Route>
+        <Route exact path={process.env.PUBLIC_URL + '/thanks'} component={Thanks}></Route>
+        <Route component={Home}></Route>
       </Switch>
     );
 
@@ -62,104 +64,104 @@ const Home = () => (
                     <div id="myCarousel" class="carousel slide">
                         <div class="carousel-inner">
                             <div class="active item carousel-item" data-slide-number="0">
-                                <img src="Shot1.jpg" class="img-fluid" />
+                                <img src={process.env.PUBLIC_URL + '/Shot1.jpg'} class="img-fluid" />
                             </div>
                             <div class="item carousel-item" data-slide-number="1">
-                                <img src="Shot2.jpg" class="img-fluid" />
+                                <img src={process.env.PUBLIC_URL + '/Shot2.jpg'} class="img-fluid" />
                             </div>
                             <div class="item carousel-item" data-slide-number="2">
-                                <img src="Shot3.jpg" class="img-fluid"/>
+                                <img src={process.env.PUBLIC_URL + '/Shot3.jpg'} class="img-fluid"/>
                             </div>
                             <div class="item carousel-item" data-slide-number="3">
-                                <img src="Shot4.jpg" class="img-fluid"/>
+                                <img src={process.env.PUBLIC_URL + '/Shot4.jpg'} class="img-fluid"/>
                             </div>
                             <div class="item carousel-item" data-slide-number="4">
-                                <img src="Shot5.jpg" class="img-fluid"/>
+                                <img src={process.env.PUBLIC_URL + '/Shot5.jpg'} class="img-fluid"/>
                             </div>
                             <div class="item carousel-item" data-slide-number="5">
-                                <img src="Shot6.jpg" class="img-fluid"/>
+                                <img src={process.env.PUBLIC_URL + '/Shot6.jpg'} class="img-fluid"/>
                             </div>
                             <div class="item carousel-item" data-slide-number="6">
-                                <img src="Shot7.jpg" class="img-fluid"/>
+                                <img src={process.env.PUBLIC_URL + '/Shot7.jpg'} class="img-fluid"/>
                             </div>
                             <div class="item carousel-item" data-slide-number="7">
-                                <img src="Shot8.jpg" class="img-fluid"/>
+                                <img src={process.env.PUBLIC_URL + '/Shot8.jpg'} class="img-fluid"/>
                             </div>
                             <div class="item carousel-item" data-slide-number="7">
-                                <img src="Shot9.jpg" class="img-fluid"/>
+                                <img src={process.env.PUBLIC_URL + '/Shot9.jpg'} class="img-fluid"/>
                             </div>
                             <div class="item carousel-item" data-slide-number="7">
-                                <img src="Shot10.jpg" class="img-fluid"/>
+                                <img src={process.env.PUBLIC_URL + '/Shot10.jpg'} class="img-fluid"/>
                             </div>
                             <div class="item carousel-item" data-slide-number="7">
-                                <img src="Shot11.jpg" class="img-fluid"/>
+                                <img src={process.env.PUBLIC_URL + '/Shot11.jpg'} class="img-fluid"/>
                             </div>
                             <div class="item carousel-item" data-slide-number="7">
-                                <img src="Shot12.jpg" class="img-fluid"/>
+                                <img src={process.env.PUBLIC_URL + '/Shot12.jpg'} class="img-fluid"/>
                             </div>
                         </div>
                         
                         <ul class="carousel-indicators list-inline">
                             <li class="list-inline-item active">
                                 <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#myCarousel">
-                                    <img src="Shot1.jpg" class="img-fluid"/>
+                                    <img src={process.env.PUBLIC_URL + '/Shot1.jpg'} class="img-fluid"/>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a id="carousel-selector-1" data-slide-to="1" data-target="#myCarousel">
-                                    <img src="Shot2.jpg" class="img-fluid"/>
+                                    <img src={process.env.PUBLIC_URL + '/Shot2.jpg'} class="img-fluid"/>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a id="carousel-selector-2" data-slide-to="2" data-target="#myCarousel">
-                                    <img src="Shot3.jpg" class="img-fluid"/>
+                                    <img src={process.env.PUBLIC_URL + '/Shot3.jpg'} class="img-fluid"/>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a id="carousel-selector-3" data-slide-to="3" data-target="#myCarousel">
-                                    <img src="Shot4.jpg" class="img-fluid"/>
+                                    <img src={process.env.PUBLIC_URL + '/Shot4.jpg'} class="img-fluid"/>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a id="carousel-selector-4" data-slide-to="4" data-target="#myCarousel">
-                                    <img src="Shot5.jpg" class="img-fluid"/>
+                                    <img src={process.env.PUBLIC_URL + '/Shot5.jpg'} class="img-fluid"/>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a id="carousel-selector-5" data-slide-to="5" data-target="#myCarousel">
-                                    <img src="Shot6.jpg" class="img-fluid"/>
+                                    <img src={process.env.PUBLIC_URL + '/Shot6.jpg'} class="img-fluid"/>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a id="carousel-selector-6" data-slide-to="6" data-target="#myCarousel">
-                                    <img src="Shot7.jpg" class="img-fluid"/>
+                                    <img src={process.env.PUBLIC_URL + '/Shot7.jpg'} class="img-fluid"/>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a id="carousel-selector-7" data-slide-to="7" data-target="#myCarousel">
-                                    <img src="Shot8.jpg" class="img-fluid"/>
+                                    <img src={process.env.PUBLIC_URL + '/Shot8.jpg'} class="img-fluid"/>
                                 </a>
                             </li>
                         </ul>
                         <ul class="carousel-indicators list-inline">
                             <li class="list-inline-item">
                                 <a id="carousel-selector-8" data-slide-to="8" data-target="#myCarousel">
-                                    <img src="Shot9.jpg" class="img-fluid"/>
+                                    <img src={process.env.PUBLIC_URL + '/Shot9.jpg'} class="img-fluid"/>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a id="carousel-selector-9" data-slide-to="9" data-target="#myCarousel">
-                                    <img src="Shot10.jpg" class="img-fluid"/>
+                                    <img src={process.env.PUBLIC_URL + '/Shot10.jpg'} class="img-fluid"/>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a id="carousel-selector-10" data-slide-to="10" data-target="#myCarousel">
-                                    <img src="Shot11.jpg" class="img-fluid"/>
+                                    <img src={process.env.PUBLIC_URL + '/Shot11.jpg'} class="img-fluid"/>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a id="carousel-selector-11" data-slide-to="11" data-target="#myCarousel">
-                                    <img src="Shot12.jpg" class="img-fluid"/>
+                                    <img src={process.env.PUBLIC_URL + '/Shot12.jpg'} class="img-fluid"/>
                                 </a>
                             </li>
                         </ul>
@@ -269,3 +271,13 @@ const Home = () => (
         <p></p>
       </div>
     );
+
+    const Thanks = () => (
+      <div>
+        <p>THANK YOU!</p>
+        <p class="copy"> Your payment has been received. Your custom wear is on the way and you rule the roost.</p>
+        <a href="index.html"><button class="btn">RETURN</button></a>
+      </div>
+    );
+
+    
