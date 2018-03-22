@@ -10,18 +10,18 @@ class App extends Component {
     return (
       <div className='app'>
         
-        <div class="marginBottom">
+        <div className="marginBottom center">
             <NavLink exact to={process.env.PUBLIC_URL + '/'}>
-              <img src="breadlogo.jpg" alt="bread main logo" class="breadLogo" />
+              <img src="breadlogo.jpg" alt="bread main logo" className="breadLogo" />
             </NavLink>
-            <h1 class="bread">THE FAMOUS BREAD BRAND</h1>
+            <h1 className="bread">THE FAMOUS BREAD BRAND</h1>
         </div>
-
         <Navigation />
-        <Main />
-
+        <div className="mainWindow">
+          <Main  />
+        </div>
         <hr />
-        <p><small>&copy;2018 Bread Denim Co.</small></p>
+        <p className="center"><small>&copy;2018 Bread Denim Co.</small></p>
       </div>
     );
   }
@@ -33,7 +33,7 @@ export default App;
 
 const Navigation = () => (
       <nav>
-        <ul class="copy">
+        <ul>
           <li><NavLink exact activeClassName="current" to={process.env.PUBLIC_URL + '/'}>What's Hot</NavLink></li>
           <li><NavLink exact activeClassName="current" to={process.env.PUBLIC_URL + '/about'}>About</NavLink></li>
           <li><NavLink exact activeClassName="current" to={process.env.PUBLIC_URL + '/advertisement'}>Advertisement</NavLink></li>
