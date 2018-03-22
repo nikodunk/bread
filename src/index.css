@@ -114,7 +114,7 @@ hr{
     }
 
 #myCarousel .list-inline {
-
+    
 }
 
 #myCarousel .carousel-indicators {
@@ -145,7 +145,10 @@ hr{
 
 }
 
-.bread { font-size: 3rem; }
+.bread { 
+  font-size: 3rem; 
+  text-decoration: none !important;
+}
 
 
 nav {
@@ -160,8 +163,8 @@ nav ul {
       display: flex;
       margin-bottom: 20px;
       justify-content: center
-      
     }
+
 
 nav ul li {
       padding: 10px;

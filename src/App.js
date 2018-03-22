@@ -9,12 +9,12 @@ class App extends Component {
   render() {
     return (
       <div className='app'>
-        
-        <div className="marginBottom center">
+        <div className="center">
             <NavLink exact to={process.env.PUBLIC_URL + '/'}>
               <img src="breadlogo.jpg" alt="bread main logo" className="breadLogo" />
+              <h1 className="bread">THE FAMOUS BREAD BRAND</h1>
             </NavLink>
-            <h1 className="bread">THE FAMOUS BREAD BRAND</h1>
+            
         </div>
         <Navigation />
         <div className="mainWindow">
