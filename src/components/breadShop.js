@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Home = () => (
+const Shop = () => (
       <div className="container" >
           <div className="marginBottom row">
                 <div id="slider" className="col-md-6">
@@ -117,6 +117,7 @@ const Home = () => (
             <div className="col-md-6">
                 <div className="detailBox">
                     <p>
+                      MADE TO ORDER<br/>
                       98% cotton<br/>
                       Produced in Holland<br/>
                       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -159,4 +160,4 @@ const Home = () => (
     );
 
 
-export default Home
+export default Shop

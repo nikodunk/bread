@@ -3,7 +3,7 @@ import { NavLink, Switch, Route } from 'react-router-dom';
 import Music from './components/breadMusic'
 import Advertisement from './components/breadAdvertisement'
 import About from './components/breadAbout'
-import Home from './components/breadHome'
+import Shop from './components/breadShop'
 
 class App extends Component {
   render() {
@@ -49,7 +49,7 @@ const Main = () => (
       <Switch>
         <Route exact path='/' component={Advertisement}></Route>
         <Route exact path='/about' component={About}></Route>
-        <Route exact path='/whatshot' component={Home}></Route>
+        <Route exact path='/whatshot' component={Shop}></Route>
         <Route exact path='/music' component={Music}></Route>
         <Route component={Advertisement}></Route>
       </Switch>
