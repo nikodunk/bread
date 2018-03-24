@@ -66,6 +66,8 @@ const Shop = () => (
                                         <img src={process.env.PUBLIC_URL + '/Shot4.jpg'} alt="" className="img-fluid"/>
                                     </a>
                                 </li>
+                            </ul>
+                            <ul className="carousel-indicators list-inline">
                                 <li className="list-inline-item">
                                     <a id="carousel-selector-4" data-slide-to="4" data-target="#myCarousel">
                                         <img src={process.env.PUBLIC_URL + '/Shot5.jpg'} alt="" className="img-fluid"/>
@@ -76,8 +78,6 @@ const Shop = () => (
                                         <img src={process.env.PUBLIC_URL + '/Shot6.jpg'} alt="" className="img-fluid"/>
                                     </a>
                                 </li>
-                            </ul>
-                            <ul className="carousel-indicators list-inline">
                                 <li className="list-inline-item">
                                     <a id="carousel-selector-6" data-slide-to="6" data-target="#myCarousel">
                                         <img src={process.env.PUBLIC_URL + '/Shot7.jpg'} alt="" className="img-fluid"/>
@@ -88,6 +88,8 @@ const Shop = () => (
                                         <img src={process.env.PUBLIC_URL + '/Shot8.jpg'} alt="" className="img-fluid"/>
                                     </a>
                                 </li>
+                            </ul>
+                            <ul className="carousel-indicators list-inline">
                                 <li className="list-inline-item">
                                     <a id="carousel-selector-8" data-slide-to="8" data-target="#myCarousel">
                                         <img src={process.env.PUBLIC_URL + '/Shot9.jpg'} alt="" className="img-fluid"/>
@@ -106,6 +108,28 @@ const Shop = () => (
                                 <li className="list-inline-item">
                                     <a id="carousel-selector-11" data-slide-to="11" data-target="#myCarousel">
                                         <img src={process.env.PUBLIC_URL + '/Shot12.jpg'} alt="" className="img-fluid"/>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul className="carousel-indicators list-inline">
+                                <li className="list-inline-item">
+                                    <a id="carousel-selector-8" data-slide-to="8" data-target="#myCarousel">
+                                        <img src={process.env.PUBLIC_URL + '/Shot13.jpg'} alt="" className="img-fluid"/>
+                                    </a>
+                                </li>
+                                <li className="list-inline-item">
+                                    <a id="carousel-selector-9" data-slide-to="9" data-target="#myCarousel">
+                                        <img src={process.env.PUBLIC_URL + '/Shot14.jpg'} alt="" className="img-fluid"/>
+                                    </a>
+                                </li>
+                                <li className="list-inline-item">
+                                    <a id="carousel-selector-10" data-slide-to="10" data-target="#myCarousel">
+                                        <img src={process.env.PUBLIC_URL + '/Shot15.jpg'} alt="" className="img-fluid"/>
+                                    </a>
+                                </li>
+                                <li className="list-inline-item">
+                                    <a id="carousel-selector-11" data-slide-to="11" data-target="#myCarousel">
+                                        <img src={process.env.PUBLIC_URL + '/Shot16.jpg'} alt="" className="img-fluid"/>
                                     </a>
                                 </li>
                             </ul>
