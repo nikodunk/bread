@@ -36,7 +36,7 @@ body {
     margin: 0 auto;
     color: #6b6b6b;
     font-size: 1.1rem;
-    font-family: sans-serif;
+    font-family: 'IBM Plex Sans Condensed',sans-serif;
   }
 
   input{
@@ -75,7 +75,7 @@ body {
       /*border: 0;
       color: white;
       background-color: #3093FB;*/
-      font-family: sans-serif ;
+      font-family: 'IBM Plex Sans Condensed', sans-serif ;
       font-size: 1.2rem;
       padding-left: 50px;
       padding-right: 50px;
@@ -145,15 +145,21 @@ hr{
     opacity: 0.7;
 }
 
-.title, h1, h2, small{
-  font-family: "VT323", monospace;
-  color: #6b6b6b;
 
+
+
+.title, h1, h2, h3, small{
+  font-family: 'Unica One', monospace;
+  color: #6b6b6b;
 }
+
+
 
 .bread { 
   font-size: 3rem; 
   text-decoration: none !important;
+  font-family: "VT323", monospace;
+  color: #6b6b6b;
 }
 
 

@@ -7,23 +7,28 @@ const About = () => (
       <br />
       <div className="marginBottom row">
         <div className="col-md-6">
-                <h2>
+                <h3>
+                  DEN OF THIEVES
+                </h3>
+                <p class="copy">
+                  Somewhere in Medieval times, possibly in Europe, a young street merchant and his merry band of chums win acclaim for hosting unspoken about parties next to nearby waterways. People from all walks of life come together. The music is good, the mood is jolly and traders even make some profit at these be-ins.<br/>
+                  Until one day, the princess herself attends.<br/>
+                  Time warps. Theories of life spin around and dance immaculately. Marble shifts in the palace, altering its entire appearance. The leaves rustle as trumpets and tambourines sound all over the kingdom.<br/>
+                  Bold and fragile.<br/>
+                  Determination and ease.<br />
+                  The journey for peace continues.<br />
+                </p>
+                <h3>
                   ABOUT THE BRAND
-                </h2>
+                </h3>
                 <p class="copy">
                   Maison Bread is a new Swiss fashion label focused on reinterpreting classic styles with cutting-edge design and avant-garde materials. Bread's passion so far has embraced Denim jeans, windbreakers and sweatshirts.
                 </p>
-                <h2>
+                <h3>
                   ABOUT THE FOUNDER
-                </h2>
+                </h3>
                 <p class="copy">
-                  Every piece is handcrafted and designed from sketch to pattern, cut, sewn and finished by founder T. Dunk. T. trained at renowned master-tailors "Knize & Comp." in Vienna, who's patrons included Austrian Noblement, Marlene Dietrich and the King of England.
-                </p>
-                <h2>
-                  INSPIRATION
-                </h2>
-                <p class="copy">
-                  The 2018 collection is inspired by European street art, music and culture scenes. Years of experience and only the best materials ensure we deliver excellence. Enjoy!
+                  Every piece is handcrafted and designed from sketch to pattern, cut, sewn and finished in-house. The founder trained at renowned master-tailors "Knize & Comp." in Vienna, who's patrons included Austrian Noblement, Marlene Dietrich and the King of England.
                 </p>
         </div>
         <div class="col-md-6">
