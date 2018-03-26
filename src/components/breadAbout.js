@@ -22,7 +22,7 @@ const About = () => (
                   ABOUT THE BRAND
                 </h3>
                 <p class="copy">
-                  Maison Bread is a new Swiss/Dutch fashion label focused on reinterpreting classic styles with cutting-edge design and avant-garde materials. Bread's passion so far has embraced Denim jeans, windbreakers and sweatshirts.
+                  Maison Bread is a new Swiss fashion label focused on reinterpreting classic styles with cutting-edge design and avant-garde materials. Bread's passion so far has embraced Denim jeans, windbreakers and sweatshirts.
                 </p>
                 <h3>
                   ABOUT THE FOUNDER
